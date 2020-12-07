@@ -2,11 +2,12 @@ import styled from 'styled-components';
 import { showRight } from '../styles/animations';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
-import { useState, useContext, useMemo } from 'react';
+import { useState, useContext } from 'react';
 import CountryContext from '../contexts/CountryContext';
 import SearchContext from '../contexts/SearchContext';
 
 const Wrapper = styled.div`
+  margin-bottom: 3rem;
   position: relative;
   & > * {
     background-color: var(--element-color);
@@ -57,10 +58,7 @@ const SearchRegion = () => {
   const [list, setList] = useState(false);
   const { region, setRegion, setValue } = useContext(SearchContext);
   const { setCountries } = useContext(CountryContext);
-  const originalCountries = useMemo(
-    () => JSON.parse(localStorage.getItem('countries')),
-    [],
-  );
+  const originalCountries = JSON.parse(localStorage.getItem('countries'));
 
   const handleRegion = ({ target }) => {
     const currentRegion = target.innerText;

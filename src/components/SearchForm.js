@@ -6,6 +6,7 @@ import { useContext, useMemo, useRef } from 'react';
 import SearchContext from '../contexts/SearchContext';
 
 const Form = styled.form`
+  max-width: 100%;
   position: relative;
 `;
 
