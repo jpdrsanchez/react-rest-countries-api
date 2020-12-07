@@ -1,4 +1,23 @@
-# Getting Started with Create React App
+# Stack used in this challenge
+
+- ReactJS ⚛
+- Styled Components 💅
+- React Router Dom 🗺
+- Vercel 💻
+
+## Frontend Mentor - REST Countries API with color theme switcher
+
+![Design preview for the REST Countries API with color theme switcher coding challenge](https://res.cloudinary.com/dz209s6jk/image/upload/v1554827486/Challenges/wirxeocmd6tpnn9c5oqc.jpg)
+
+## Welcome! 👋
+
+Thanks for checking out this front-end coding challenge.
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+
+**To do this challenge, you need a good understanding of JavaScript.**
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
